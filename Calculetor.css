@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background:linear-gradient(to top right,#7f090b, #351fda) ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* calculwtor body */
+.boss{
+    height: 500px;
+    width: 350px;
+    border: 5px solid rgb(186, 185, 203);
+    border-radius: 20px;
+    box-shadow: 19px 10px 40px rgb(55, 3, 3);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+input{
+    height: 100px;
+    width: 320px;
+    margin-left: 10px;
+    border: 3px solid rgb(7, 84, 54);
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 4px -4px 30px ;
+    /* background: linear-gradient(to top right,#8fa58d, #087af3) ; */
+    background: transparent;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 8px;
+}
+input::placeholder{
+    color: aliceblue;
+}
+.switch{
+    height: 310px;
+    margin-top: 25px;
+    width: 260px;
+    border: 3px solid rgb(7, 84, 54);
+    border-radius: 20px;
+    margin-left: 20px;
+    box-shadow: 4px 4px 30px ;
+    padding: 10px;
+    padding-left: 30px;
+}
+button{
+    height:40px;
+    width: 40px;
+    margin: 10px;
+    background: linear-gradient(to top right,#1dd510, #5008a7) ;
+    font-weight: 1000;
+    font-size: 17px;
+    color: rgb(211, 196, 122);
+    box-shadow: 3px 3px 20px black;
+    border-radius: 8px;
+
+}
+.opoerator{
+    color: #1d1815;
+    background: linear-gradient(to top right,#aad510, #5008a7) ;
+}
+.ans{
+    background: linear-gradient(to top right,#d5ce10, #a71d08) ;
+    color: #141714f3;
+    font-size: 15px;
+}
